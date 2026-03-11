@@ -1,4 +1,4 @@
-# zabbix & htop
+# zabbix
 
 This document records the deployment of the learning environment for coursework and does not contain any information pertaining to actual production environments.
 
