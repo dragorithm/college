@@ -2,7 +2,7 @@
 
 ## rule
 
-\[type\](file path): message  
+\[type\](file path 1, file path 2, ..., file path n): message  
 description
 
 foot
@@ -12,7 +12,7 @@ foot
 required
 
 - [type]
-- (file path)
+- (file path 1, file path 2, ..., file path n)
 - : message
 
 ## type
