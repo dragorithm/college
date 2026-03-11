@@ -1,13 +1,16 @@
 {
-    "cSpell.language": "en-GB",
-    "cSpell.dictionaryDefinitions": [
-        {
-            "name": "technology",
-            "path": "./.cspell/technology.txt"
-        }
-    ],
-    "cSpell.dictionaries": [
-        "technology"
-    ],
-    "editor.fontFamily": "Noto Sans Mono CJK SC, monospace",
+  "cSpell.language": "en-GB",
+  "cSpell.dictionaryDefinitions": [
+    {
+      "name": "technology",
+      "path": "./.cspell/technology.txt"
+    }
+  ],
+  "cSpell.dictionaries": [
+    "technology"
+  ],
+  "editor.fontFamily": "Noto Sans Mono CJK SC, monospace",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false
 }
