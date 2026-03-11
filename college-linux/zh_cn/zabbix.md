@@ -54,7 +54,7 @@ quit;
 
 ```bash
 # 系统将提示输入新创建的密码
-zcat /usr/share/zabbix/sql-scripts/mysql/server.sql.gz | mariadb --default-character-set=utf8mb4 -uzabbix -p zabbix
+zcat /usr/share/zabbix/sql-scripts/mysql/server.sql.gz | mariadb --default-character-set=utf8mb4 -u zabbix -p zabbix
 ```
 
 导入数据库架构后禁用 log_bin_trust_function_creators 选项。
