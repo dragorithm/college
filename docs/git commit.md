@@ -1,5 +1,7 @@
 # git commit
 
+Commit messages should be written in English for consistency and readability.
+
 ## rule
 
 \[type\](file path 1, file path 2, ..., file path n): message  
