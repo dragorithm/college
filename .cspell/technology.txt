@@ -1,3 +1,11 @@
 dpkg
 zcat
 tulnp
+illumos
+edon
+edonr
+openzfs
+proc
+chksum
+noparity
+dedup
