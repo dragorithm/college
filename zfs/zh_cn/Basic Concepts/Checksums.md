@@ -57,3 +57,7 @@ ZFS 可以把校验运算(checksum operations)卸载到 Intel QuickAssist Techno
 ## 禁用校验
 
 虽然禁用校验和以提升CPU性能可能颇具诱惑力, 但ZFS社区普遍认为这是极其糟糕的做法。不要禁用校验和
+
+## 源
+
+[Checksums and Their Use in ZFS](https://openzfs.github.io/openzfs-docs/Basic%20Concepts/Checksums.html)
