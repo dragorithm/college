@@ -1,15 +1,15 @@
 {
-  "cSpell.language": "en-GB",
-  "cSpell.dictionaryDefinitions": [
-    {
-      "name": "technology",
-      "path": "./.cspell/technology.txt"
-    }
-  ],
-  "cSpell.dictionaries": [
-    "technology"
-  ],
-  "editor.tabSize": 4,
-  "editor.insertSpaces": true,
-  "editor.detectIndentation": false
+    "cSpell.language": "en-GB",
+    "cSpell.dictionaryDefinitions": [
+        {
+            "name": "technology",
+            "path": "./.cspell/technology.txt"
+        }
+    ],
+    "cSpell.dictionaries": [
+        "technology"
+    ],
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
 }
