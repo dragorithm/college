@@ -28,7 +28,7 @@
 
 ### Essence
 
-1. Loong = the embodiment of spring
+1. Loong = the embodiment of spring, among many other meanings
 
 ## III. Ritual Structure of the Spring Festival
 
