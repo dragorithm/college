@@ -121,6 +121,14 @@ EOF
 systemctl restart zabbix-agent2
 ```
 
+Update Language
+
+```bash
+sed -i 's/# zh_CN.UTF-8 UTF-8/zh_CN.UTF-8 UTF-8/' /etc/locale.gen
+locale-gen
+systemctl restart php8.3-fpm
+```
+
 Force data refresh
 
 ```bash

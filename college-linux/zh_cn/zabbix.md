@@ -44,7 +44,7 @@ apt install zabbix-server-mysql zabbix-frontend-php zabbix-nginx-conf zabbix-sql
 mariadb
 ```sql
 create database zabbix character set utf8mb4 collate utf8mb4_bin;
-create user zabbix@localhost identified by 'password';
+create user zabbix@localhost identified by ‘password’;
 grant all privileges on zabbix.* to zabbix@localhost;
 set global log_bin_trust_function_creators = 1;
 quit;
@@ -71,7 +71,7 @@ quit;
 配置Zabbix服务器的数据库
 
 ```bash
-sed -i 's/# DBPassword=/DBPassword=password/' /etc/zabbix/zabbix_server.conf
+sed -i ‘s/# DBPassword=/DBPassword=password/’ /etc/zabbix/zabbix_server.conf
 ```
 
 配置nginx配置文件
@@ -93,7 +93,7 @@ systemctl enable zabbix-server nginx php8.3-fpm
 选择 `zabbix-server` 监听端口（默认 10051）
 
 ```bash
-systemctl status zabbix-server | grep 'Main PID:'
+systemctl status zabbix-server | grep “Main PID:”
 # 示例：Main PID: 1198 (zabbix_server)
 
 ss -tulnp | grep 1198
@@ -122,7 +122,7 @@ systemctl restart zabbix-agent2
 更新语言环境
 
 ```bash
-sed -i 's/# zh_CN.UTF-8 UTF-8/zh_CN.UTF-8 UTF-8/' /etc/locale.gen
+sed -i ‘s/# zh_CN.UTF-8 UTF-8/zh_CN.UTF-8 UTF-8/’ /etc/locale.gen
 locale-gen
 systemctl restart php8.3-fpm
 ```
