@@ -2,6 +2,8 @@
 
 This document records the deployment of the learning environment for coursework and does not contain any information pertaining to actual production environments.
 
+This document includes selected information sourced from the official Zabbix documentation at <https://www.zabbix.com/>.
+
 Eliminate interference
 
 ```bash
