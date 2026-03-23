@@ -4,7 +4,7 @@
 
 ## 语言
 
-[English(UK)](./README.md)
+[English(UK)](../../README.md)
 
 ## 仓库结构
 
