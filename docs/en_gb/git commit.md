@@ -28,7 +28,7 @@ required
 - **fix**: Defect fix
   - security: Fixes security‑related issues
   - defect: Fixes non‑security defects
-- **docs**: Update documentation under ./docs
+- **docs**: Update documentation under ./docs and the root `README.md`
   - git: Update Git-related content
   - '': Other; no sub-type required
 - **style**: Format adjustments do not affect the logic

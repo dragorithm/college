@@ -28,7 +28,7 @@
 - **fix**: 缺陷修复
   - security: 修复与安全相关的问题
   - defect: 修复非安全性的缺陷
-- **docs**: 更新 ./docs 下的文档
+- **docs**: 更新 ./docs 下的文档与根目录的`README.md`
   - git: 更新与git相关的
   - '': 其它, 不需要子type
 - **style**: 格式调整，不影响逻辑
