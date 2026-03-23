@@ -11,6 +11,7 @@
 ### 配置文件
 
 - **.cspell/technology.txt**: 开发过程中使用的技术词汇，用于 cspell 插件检查
+- **.cspell/ensure.txt**: 确保文档中所有名称的拼写保持一致，包括人名、神名、龙族名称、宠物名称以及其他拼写固定的专有名词
 - **.vscode**: VS Code（或 VSCodium）开发环境的配置文件
 
 ### 学院作业

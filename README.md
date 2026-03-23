@@ -11,6 +11,7 @@ This repository contains the coursework, project practices, and organised notes 
 ### Configuration Files
 
 - **.cspell/technology.txt**: Technical vocabulary used during development, for cspell plugin checks
+- **.cspell/ensure.txt**: Ensures consistent spelling of all names in the documents, including homo names, deities, draco, pets, and other proper nouns with fixed spellings
 - **.vscode**: Configuration files for the development environment in VS Code (or VSCodium)
 
 ### Academy Assignments
