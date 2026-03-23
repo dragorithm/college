@@ -6,7 +6,7 @@ If the git documentation is updated, commit using the new conventions, including
 
 ## rule
 
-\[type\](file path 1, file path 2, ..., file path n): message  
+\[type\](scope): message  
 description
 
 foot
@@ -16,7 +16,7 @@ foot
 required
 
 - [type]
-- (file path 1, file path 2, ..., file path n)
+- (scope)
 - : message
 
 ## type
@@ -36,6 +36,15 @@ required
 - **perf**: Performance optimization
 - **revert**: Rollback commit
 - **chore**: other
+
+## scope
+
+- **college**: Content related to academy assignments
+- **docs**: Content related to the docs directory or the `README.md`.
+    Scope overlaps with type and may be ignored
+- **git**: Content related to Git
+- **notes**: Content related to study notes
+- **vscode**: Content related to VS Code
 
 ## Three‑Layer Commit Structure
 
