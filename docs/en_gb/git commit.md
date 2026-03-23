@@ -43,3 +43,4 @@ required
 - scope: Describes where the change was made.
 - message: Should focus on why the change was made; add what-details only if necessary.
     When submitting messages, all text should be in lowercase, words should be separated by spaces, and no full stop should be added at the end.
+    An exception is that proper nouns may use capital letters, such as OpenZFS, Toothless, and Darkstalker.
