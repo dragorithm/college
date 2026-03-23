@@ -4,18 +4,17 @@
         {
             "name": "technology",
             "path": "./.cspell/technology.txt"
+        },
+        {
+            "name": "ensure",
+            "path": "./.cspell/ensure.txt"
         }
     ],
     "cSpell.dictionaries": [
-        "technology"
+        "technology",
+        "ensure"
     ],
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
-    "editor.detectIndentation": false,
-    "cSpell.words": [
-        "Apsu",
-        "Loong",
-        "Sarasvati",
-        "Tiamat"
-    ]
+    "editor.detectIndentation": false
 }
