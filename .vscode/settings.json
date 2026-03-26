@@ -16,5 +16,10 @@
     ],
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
-    "editor.detectIndentation": false
+    "editor.detectIndentation": false,
+    "markdownlint.config": {
+        "MD024": {
+            "siblings_only": true
+        }
+    }
 }
