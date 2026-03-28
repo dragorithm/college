@@ -22,6 +22,7 @@ This repository contains the coursework, project practices, and organised notes 
 ### Study Notes
 
 - **zfs**: Documentation translated while studying OpenZFS
+- **git**: Notes on learning Git
 
 ## .gitignore
 

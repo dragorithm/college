@@ -22,6 +22,7 @@
 ### 学习过程笔记
 
 - **zfs**: 学习 OpenZFS 时翻译整理的文档
+- **git**：学习 Git 的笔记
 
 ## .gitignore
 
