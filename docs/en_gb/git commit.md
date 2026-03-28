@@ -41,15 +41,22 @@ required
 
 - **college**: Content related to academy assignments
 - **docs**: Content related to the docs directory or the `README.md`.
-    Scope overlaps with type and may be ignored
+    This may be ignored when the type is docs.
 - **git**: Content related to Git
 - **notes**: Content related to study notes
 - **vscode**: Content related to VS Code
 
-## Three‑Layer Commit Structure
+## Core Three‑Layer Commit Structure
 
 - type: Describes what was done.
 - scope: Describes where the change was made.
-- message: Should focus on why the change was made; add what-details only if necessary.
-    When submitting messages, all text should be in lowercase, words should be separated by spaces, and no full stop should be added at the end.
+- message: Describes what was done.
+
+*Note*: Commit messages should be limited to a single sentence, all text should be written in lowercase, with words separated by spaces, and without a full stop at the end.
     An exception is that proper nouns may use capital letters, such as OpenZFS, Toothless, and Darkstalker.
+
+## Extended Commit Structure
+
+- description: Filled in only when necessary to explain why the change was made.
+
+*Note*: In most cases, the reasoning behind a change should be documented elsewhere rather than inside the commit message.
