@@ -1,6 +1,7 @@
 autoreplace
 chksum
 contrib
+deadman
 dedup
 dpkg
 edon
@@ -11,6 +12,7 @@ Merkle
 mmap
 MOUNTPOINTS
 noparity
+nvlist
 nvme
 oneline
 openzfs
@@ -18,6 +20,7 @@ poolname
 proc
 raidz
 rootfs
+sanoid
 Siden
 smartctl
 tulnp
@@ -29,6 +32,8 @@ vdevs
 vdisk
 xfsprogs
 zcat
+zfstools
 zfsutils
+zstreamdump
 zvol
 zvols
