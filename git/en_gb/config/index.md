@@ -86,7 +86,7 @@ This outputs system-level, user-level, and repository-level definitions in order
 ## Deleting Configuration via Command Line
 
 Sometimes you may enter incorrect configuration or want to remove unused entries.
-    In such cases, you can delete configuraton items via command line.
+    In such cases, you can delete configuration items via command line.
 
 ### Basic Syntax
 
