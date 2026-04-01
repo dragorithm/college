@@ -51,11 +51,11 @@ Git 按以下顺序搜索编辑器：
 通过 Git 配置将 VS Code 设为编辑器：
 
 ```bash
-git config --global core.editor “code --wait”
+git config --global core.editor "code --wait"
 ```
 
 通过环境变量将 vim 配置为编辑器：
 
 ```bash
-export GIT_EDITOR=‘vim’
+export GIT_EDITOR='vim'
 ```
