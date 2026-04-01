@@ -12,7 +12,7 @@ Git supports changing the editor via **environment variable**s or **Git configur
 
 Git searches for the editor in the following order:
 
-1. Environment variable `GET_EDITOR`
+1. Environment variable `GIT_EDITOR`
 2. Git configuration option `core.editor`
 3. Environment variable `VISUAL`
 4. Environment variable `EDITOR`
